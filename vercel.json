@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "construction-connect",
-  "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
   "routes": [
