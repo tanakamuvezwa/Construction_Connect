@@ -1080,9 +1080,6 @@ function renderAuthCard() {
         ${isSignup ? 'Complete Registration via Formspree' : 'Access Portal'}
       </button>
 
-      <div style="text-align: center; margin-top: 16px; font-size: 13px; color: var(--text-muted);">
-        Looking for the Platform Super Admin? <a href="/admin" style="color: var(--primary); font-weight: 700;">Open Master Admin Panel →</a>
-      </div>
     </form>
   `;
 }
@@ -1177,7 +1174,6 @@ function renderAdminDashboard() {
         <p style="color: var(--text-muted); font-size: 14px;">Manage your Zimbabwean manufacturing catalog, orders and factory profile.</p>
       </div>
       <div style="display: flex; gap: 8px;">
-        <a href="/admin" class="btn btn-earth btn-sm">Platform Super Admin ↗</a>
         <button class="btn btn-outline btn-sm" onclick="handleLogout()">Sign Out</button>
       </div>
     </div>

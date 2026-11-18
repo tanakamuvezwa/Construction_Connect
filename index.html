@@ -42,7 +42,6 @@
       <button class="nav-btn" data-page="designs" onclick="showPage('designs')">Custom Designs</button>
       <button class="nav-btn" data-page="admin" onclick="handleNavAdmin()">Manufacturer Portal</button>
       <button class="nav-btn" data-page="retailer" onclick="handleNavRetailer()">Buyer Portal</button>
-      <a href="/admin" class="nav-btn" style="text-decoration:none; color: var(--accent-gold); font-weight:700;">⚡ Master Admin</a>
     </nav>
     <div class="header-right">
       <button class="btn btn-primary btn-sm" id="regBtn" onclick="showAuth('admin','signup')">Register Company</button>
@@ -211,9 +210,6 @@
       <button class="sidebar-item" data-tab="admin-products" onclick="showAdminTab('admin-products',this)">📦 Products</button>
       <button class="sidebar-item" data-tab="admin-orders" onclick="showAdminTab('admin-orders',this)">📋 Orders</button>
       <button class="sidebar-item" data-tab="admin-settings" onclick="showAdminTab('admin-settings',this)">⚙️ Settings</button>
-      <div style="margin-top: auto; padding-top: 20px;">
-        <a href="/admin" class="sidebar-item" style="color: #FBBF24; text-decoration: none;">⚡ Super Admin Panel ↗</a>
-      </div>
     </div>
     <div class="panel-content" id="adminContent"></div>
   </div>
@@ -263,11 +259,10 @@
       <a href="#how-it-works">How It Works</a>
     </div>
     <div>
-      <h4>Portals & Admin</h4>
+      <h4>Portals</h4>
       <a href="#" onclick="showAuth('admin','login');return false;">Manufacturer Sign In</a>
       <a href="#" onclick="showAuth('retailer','login');return false;">Customer Sign In</a>
       <a href="#" onclick="showAuth('admin','signup');return false;">Register Factory</a>
-      <a href="/admin" style="color: #FBBF24; font-weight:700;">⚡ Master Admin Backend</a>
     </div>
     <div>
       <h4>Formspree Integration</h4>
